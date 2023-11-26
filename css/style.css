@@ -20,3 +20,8 @@ footer{
   background-image: linear-gradient(109.6deg, rgba(61, 131, 97, 1) 11.2%, rgb(24, 82, 70) 91.1%);
   color: aliceblue;
 }
+
+.temporizador{
+  color: aliceblue;
+  border: 1px solid black;
+}
