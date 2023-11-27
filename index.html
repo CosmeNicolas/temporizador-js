@@ -18,15 +18,16 @@
     <div class="d-flex flex-column px-5">
       <div class="px-5 my-3 d-flex flex-column">
         <h1 class="text-light" id="tiempo">00:00:00</h1>
-        <label class="text-light" for="">Tiempo a descontar</label>
-        <input for=""
+        <label class="text-light" >Tiempo a descontar</label>
+        <input 
         type="number"
-        placeholder="Ingrese el tiempo"></input>
+        placeholder="Ingrese el tiempo"
+        id="valorTiempo"></input>
       </div>
       <div>
-        <button class="temporizador btn btn-primary" onclick="inicio()">Iniciar</button>
+        <button class="temporizador btn btn-primary" onclick="iniciar()">Iniciar</button>
         <button class="temporizador btn btn-danger" onclick="pausar()">Pausar</button>
-        <button class="temporizador btn btn-warning" onclick="resetear()">Reset</button>
+        <button class="temporizador btn btn-warning" onclick="resetear()">Reiniciar</button>
       </div>
      
       </section>
