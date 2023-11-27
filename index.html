@@ -18,23 +18,24 @@
 <body>
   
   <header class ="letras text-center py-3">Temporizador</header>
-  <main class="container-fluid text-center">
-    <div class="d-flex flex-column px-5">
-      <div class="px-5 my-3 d-flex flex-column">
-        <h1 class="letras text-light" id="tiempo">00</h1>
-        <label class="text-light" >Tiempo a descontar en Segundos</label>
-        <input 
-        type="text"
-        placeholder="Ingrese el tiempo"
-        id="valorTiempo"></input>
-      </div>
-      <div>
-        <button class="temporizador btn btn-primary" onclick="iniciar()">Iniciar</button>
-        <button class="temporizador btn btn-danger" onclick="pausar()">Pausar</button>
-        <button class="temporizador btn btn-warning" onclick="resetear()">Reiniciar</button>
-      </div>
+  <main>
+    <section  class="container-fluid text-center"
+      <div class="d-flex flex-column px-5">
+        <div class="px-5 my-3 d-flex flex-column">
+          <h1 class="letras text-light" id="tiempo">00</h1>
+          <label class="text-light mt-2" >Tiempo a descontar en Segundos</label>
+          <input class="mt-4" 
+          type="text"
+          placeholder="Ingrese el tiempo en segundos"
+          id="valorTiempo"></input>
+        </div>
+        <div>
+          <button class="temporizador btn btn-primary" onclick="iniciar()">Iniciar</button>
+          <button class="temporizador btn btn-danger" onclick="pausar()">Pausar</button>
+          <button class="temporizador btn btn-warning" onclick="resetear()">Reiniciar</button>
+        </div>
+    </section>
      
-      </section>
   </main>
   <footer class="letras text-center">
     &copy; Todos los derechos reservados
