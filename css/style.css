@@ -5,7 +5,7 @@ body{
 }
 
 header{
-  background-image: linear-gradient(109.6deg, rgba(61, 131, 97, 1) 11.2%, rgb(24, 82, 70) 91.1%);
+  background-image: linear-gradient(109.6deg, rgb(36, 69, 53) 11.2%, rgb(24, 82, 70) 91.1%);
   color: aliceblue;
 }
 
@@ -17,11 +17,16 @@ main{
 }
 
 footer{
-  background-image: linear-gradient(109.6deg, rgba(61, 131, 97, 1) 11.2%, rgb(24, 82, 70) 91.1%);
+  background-image: linear-gradient(109.6deg, rgb(40, 82, 62) 11.2%, rgb(25, 46, 36) 91.1%);
   color: aliceblue;
 }
 
 .temporizador{
   color: aliceblue;
   border: 1px solid black;
+  font-family: 'Tourney';
+}
+
+.letras{
+  font-family: 'Tourney';
 }
